@@ -525,7 +525,7 @@ p.lead,
   background: -moz-linear-gradient(left, #564740, #3a414a);
   background: -o-linear-gradient(left, #564740, #3a414a);
   background: -ms-linear-gradient(left, #564740, #3a414a);
-  background: linear-gradient(left, #564740, #3a414a);
+  background: linear-gradient(to left, #564740, #3a414a);
   opacity: 0.94; }
 
 .form-control {
@@ -833,7 +833,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   background: -ms-linear-gradient(left, rgba(67, 76, 99, 0.85), rgba(188, 155, 114, 0.85)) !important;
   background: -o-linear-gradient(left, rgba(67, 76, 99, 0.85), rgba(188, 155, 114, 0.85)) !important;
   background: -webkit-linear-gradient(left, rgba(67, 76, 99, 0.85), rgba(188, 155, 114, 0.85)) !important;
-  background: linear-gradient(left, rgba(67, 76, 99, 0.85), rgba(188, 155, 114, 0.85)) !important;
+  background: linear-gradient(to left, rgba(67, 76, 99, 0.85), rgba(188, 155, 114, 0.85)) !important;
   bottom: 0;
   position: absolute; }
 
@@ -914,7 +914,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   background: -moz-linear-gradient(left, #554346, #45505b) !important;
   background: -o-linear-gradient(left, #554346, #45505b) !important;
   background: -ms-linear-gradient(left, #554346, #45505b) !important;
-  background: linear-gradient(left, #554346, #45505b) !important;
+  background: linear-gradient(to left, #554346, #45505b) !important;
   opacity: 0;
   -webkit-transition: .2s opacity ease-in-out;
   transition: .2s opacity ease-in-out; }
@@ -965,7 +965,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   background: -moz-linear-gradient(left, rgba(85, 67, 70, 0.85), rgba(69, 80, 91, 0.85)) !important;
   background: -o-linear-gradient(left, rgba(85, 67, 70, 0.85), rgba(69, 80, 91, 0.85)) !important;
   background: -ms-linear-gradient(left, rgba(85, 67, 70, 0.85), rgba(69, 80, 91, 0.85)) !important;
-  background: linear-gradient(left, rgba(85, 67, 70, 0.85), rgba(69, 80, 91, 0.85)) !important;
+  background: linear-gradient(to left, rgba(85, 67, 70, 0.85), rgba(69, 80, 91, 0.85)) !important;
   -webkit-transition: .2s background ease-in-out;
   transition: .2s background ease-in-out; }
 

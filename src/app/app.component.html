@@ -5,70 +5,66 @@
 
       <div class="mbr-table">
         <div class="mbr-table-cell">
-
           <div class="navbar-brand">
-            <a routerLink="/" class="navbar-logo"><img src="./../assets/images/logo.jpg" alt="sia-pro.by"
-                                                       style="width: 34%; height: 34%;"></a>
-
+            <a routerLink="/" class="navbar-logo"><img src="./../assets/images/logo.jpg" alt="sia-pro.by" style="width: 34%; height: 34%;"></a>
           </div>
 
         </div>
         <div class="mbr-table-cell">
 
-          <button class="navbar-toggler pull-xs-right hidden-md-up" type="button" data-toggle="collapse"
-                  data-target="#exCollapsingNavbar">
+          <button class="navbar-toggler pull-xs-right hidden-md-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
             <div class="hamburger-icon"></div>
           </button>
 
-          <ul class="nav-dropdown collapse pull-xs-right nav navbar-nav navbar-toggleable-sm"
-              id="exCollapsingNavbar">
+          <ul class="nav-dropdown collapse pull-xs-right nav navbar-nav navbar-toggleable-sm" id="exCollapsingNavbar">
             <li class="nav-item"><a class="nav-link link" routerLink="/">Главная</a></li>
             <li class="nav-item"><a class="nav-link link" routerLink="/portfolio">Портфолио</a></li>
             <li class="nav-item"><a class="nav-link link" routerLink="/job-openings">Вакансии</a></li>
-            <li class="nav-item dropdown"><a class="nav-link link dropdown-toggle" data-toggle="dropdown-submenu"
-                                             aria-expanded="false">Услуги</a>
-              <div class="dropdown-menu"><a class="dropdown-item" href="#">Индивидуальный пошив</a><a
-                class="dropdown-item" href="#">Корпоративная и форменная одежда<br></a><a
-                class="dropdown-item" href="#">Текстиль интерьеров</a><a class="dropdown-item"
-                                                                         href="#">Ремонт одежды
-                любой сложности</a></div>
+            <li class="nav-item dropdown">
+              <a class="nav-link link dropdown-toggle" data-toggle="dropdown-submenu" aria-expanded="false">Услуги</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" routerLink="/">Индивидуальный пошив</a>
+                <a class="dropdown-item" routerLink="/">Корпоративная и форменная одежда<br></a>
+                <a class="dropdown-item" routerLink="/">Текстиль интерьеров</a>
+                <a class="dropdown-item" routerLink="/">Ремонт одежды любой сложности</a>
+              </div>
             </li>
-            <li class="nav-item"><a class="nav-link link" href="#">Контакты</a></li>
+            <li class="nav-item"><a class="nav-link link" routerLink="/contacts">Контакты</a></li>
             <li>
               <div>
                 <div>
-                  <a href="https://vk.com/sia_pro"><img src="./../vk.jpg"
-                                                        style="width: 50px; height: 50px" alt="vk"></a>
-                  <a href="https://www.instagram.com/siapro/"><img src="./../insta.png"
-                                                                   style="width: 50px; height: 50px" alt="instagramm"></a>
-                  <a href="https://t.me/sia_pro"><img src="./../tele.png"
-                                                      style="width: 50px; height: 50px" alt="telegram"></a></div>
-                <div><a style="font-size: 17px; color: black;" href="tel:+375336220597">+375(33) 622-05-97</a></div>
+                  <a href="https://vk.com/sia_pro">
+                    <img src="./../vk.jpg" style="width: 50px; height: 50px" alt="vk">
+                  </a>
+                  <a href="https://www.instagram.com/siapro/">
+                    <img src="./../insta.png" style="width: 50px; height: 50px" alt="instagramm">
+                  </a>
+                  <a href="https://t.me/sia_pro"><img src="./../tele.png" style="width: 50px; height: 50px" alt="telegram">
+                  </a>
+                </div>
+                <div>
+                  <a style="font-size: 17px; color: black;" href="tel:+375336220597">+375(33) 622-05-97</a>
+                </div>
               </div>
 
             </li>
           </ul>
-          <button hidden="" class="navbar-toggler navbar-close" type="button" data-toggle="collapse"
-                  data-target="#exCollapsingNavbar">
+          <button hidden="" class="navbar-toggler navbar-close" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
             <div class="close-icon"></div>
           </button>
-
         </div>
       </div>
-
     </div>
   </nav>
-
 </section>
 
 <router-outlet></router-outlet>
 
-<footer class="mbr-small-footer mbr-section mbr-section-nopadding" id="footer1-g"
-        style="background-color: rgb(50, 50, 50); padding-top: 3.5rem; padding-bottom: 3.5rem;">
-
+<footer class="mbr-small-footer mbr-section mbr-section-nopadding" id="footer1-g" style="background-color: rgb(50, 50, 50); padding-top: 3.5rem; padding-bottom: 3.5rem;">
   <div class="container">
-    <p class="text-xs-center">Created by <a
-      href="https://www.linkedin.com/in/%D1%81%D0%B5%D1%80%D0%B3%D0%B5%D0%B9-%D0%BA%D0%BE%D0%B2%D0%B0%D0%BB%D1%8C%D1%87%D1%83%D0%BA-451b81181/">Kovalchuk
-      Sergei</a>.</p>
+    <p class="text-xs-center">
+      Created by <a href="https://www.linkedin.com/in/%D1%81%D0%B5%D1%80%D0%B3%D0%B5%D0%B9-%D0%BA%D0%BE%D0%B2%D0%B0%D0%BB%D1%8C%D1%87%D1%83%D0%BA-451b81181/">
+      Kovalchuk Sergei</a>.
+    </p>
   </div>
 </footer>

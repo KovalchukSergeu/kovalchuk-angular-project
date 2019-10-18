@@ -1,0 +1,24 @@
+<header class="navbar"  [ngClass]="{'navbar-fixed': isFixedNavbar}">
+  <div class="container" fxLayout="row wrap" fxLayoutAlign="start center">
+    <div class="navbar-mobile-top" fxLayout="row" fxLayoutWrap="wrap" fxLayoutAlign="start center">
+      <div class="navbar-logo">
+        <a routerLink="/"><img src="./../../../assets/images/logo.jpg" alt="sia-pro.by"></a>
+      </div>
+      <button mat-icon-button color="accent" class="navbar-toggle" (click)="toggleNavbar()">
+        Menu
+      </button>
+    </div>
+    <div fxFlex class="top-navbar">
+      <span fxFlex></span>
+      <a mat-button  class="navbartop-btn" routerLink="/"><strong>Главная</strong></a>
+      <a mat-button  class="navbartop-btn" routerLink="/portfolio"><strong>Портфолио</strong></a>
+      <a mat-button  class="navbartop-btn" routerLink="/job-openings"><strong>Вакансии</strong></a>
+      <a mat-button  class="navbartop-btn" routerLink="/contacts"><strong>Контакты</strong></a>
+    </div>
+    <div fxFlex class="register">
+      <span fxFlex></span>
+      <a mat-button  class="navbartop-btn" routerLink="/"><strong>Регистрация/</strong></a>
+      <a mat-button  class="navbartop-btn" routerLink="/"><strong>Вход</strong></a>
+    </div>
+  </div>
+</header>

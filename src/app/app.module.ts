@@ -4,12 +4,13 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
-import { PortfolioComponent } from './portfolio/portfolio.component';
-import { JobOpeningsComponent } from './job-openings/job-openings.component';
-import { JobServicesComponent } from './job-services/job-services.component';
-import { ContactsComponent } from './contacts/contacts.component';
-import { NotFoundComponent } from './not-found/not-found.component';
+import { HomeComponent } from './components/home/home.component';
+import { PortfolioComponent } from './components/portfolio/portfolio.component';
+import { JobOpeningsComponent } from './components/job-openings/job-openings.component';
+import { JobServicesComponent } from './components/job-services/job-services.component';
+import { ContactsComponent } from './components/contacts/contacts.component';
+import { NotFoundComponent } from './components/not-found/not-found.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 const appRoutes: Routes = [
     {path: '', component: HomeComponent},
@@ -28,7 +29,8 @@ const appRoutes: Routes = [
     JobOpeningsComponent,
     JobServicesComponent,
     ContactsComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
